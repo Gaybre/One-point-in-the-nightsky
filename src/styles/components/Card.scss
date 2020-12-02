@@ -1,0 +1,35 @@
+%card {
+  width: fit-content;
+  margin: 0 auto;
+  padding: $spacing-small;
+  border-radius: $border-radius;
+  text-align: center;
+  transition: 300ms;
+  & h2 {
+    margin-top: $spacing-medium;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+  &:active {
+    transform: scale(.8);
+  }
+}
+
+.card--succes {
+  @extend %card;
+  background-color: rgba($succes-color, 0.5);
+  &:hover {
+    background-color: rgba($succes-color, 0.8);
+    @include shadow($succes-color);
+  }
+}
+
+.card--warning {
+  @extend %card;
+  background-color: rgba($warning-color, 0.4);
+  &:hover {
+    background-color: rgba($warning-color, 0.7);
+    @include shadow($warning-color);
+  }
+}

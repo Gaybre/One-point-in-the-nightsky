@@ -1,0 +1,15 @@
+.result {
+  position: relative;
+  height: 400px;
+  padding: $spacing-medium;
+  border-radius: $border-radius;
+  text-align: center;
+  background-color: rgba($primary-color, .5);
+  @include shadow($grayscale-1);
+  h2 {
+    position: absolute;
+    bottom: $spacing-medium;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

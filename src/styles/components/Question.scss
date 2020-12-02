@@ -1,0 +1,8 @@
+.question {
+  text-align: center;
+  &__cards {
+    display: flex;
+    padding: $spacing-large;
+    justify-content: center;
+  }
+}

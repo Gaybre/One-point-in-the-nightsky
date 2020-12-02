@@ -1,0 +1,15 @@
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__entry {
+    display: flex;
+    flex-direction: column;
+    & button {
+      width: 60%;
+      margin: 0 auto;
+      margin-top: $spacing-large *2;
+    }
+  }
+}
