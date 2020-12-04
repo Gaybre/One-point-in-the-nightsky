@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/One-point-in-the-nightsky/static/css/main.e3ed5db6.chunk.css",
-    "main.js": "/One-point-in-the-nightsky/static/js/main.6fdc6910.chunk.js",
-    "main.js.map": "/One-point-in-the-nightsky/static/js/main.6fdc6910.chunk.js.map",
+    "main.css": "/One-point-in-the-nightsky/static/css/main.1d3fa3fd.chunk.css",
+    "main.js": "/One-point-in-the-nightsky/static/js/main.971a80bb.chunk.js",
+    "main.js.map": "/One-point-in-the-nightsky/static/js/main.971a80bb.chunk.js.map",
     "runtime-main.js": "/One-point-in-the-nightsky/static/js/runtime-main.8bdaf720.js",
     "runtime-main.js.map": "/One-point-in-the-nightsky/static/js/runtime-main.8bdaf720.js.map",
     "static/js/2.00aee3a3.chunk.js": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js",
     "static/js/2.00aee3a3.chunk.js.map": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js.map",
     "index.html": "/One-point-in-the-nightsky/index.html",
-    "static/css/main.e3ed5db6.chunk.css.map": "/One-point-in-the-nightsky/static/css/main.e3ed5db6.chunk.css.map",
+    "static/css/main.1d3fa3fd.chunk.css.map": "/One-point-in-the-nightsky/static/css/main.1d3fa3fd.chunk.css.map",
     "static/js/2.00aee3a3.chunk.js.LICENSE.txt": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js.LICENSE.txt",
     "static/media/guitarra.edaa3511.png": "/One-point-in-the-nightsky/static/media/guitarra.edaa3511.png",
     "static/media/nightsky.52defeb8.jpg": "/One-point-in-the-nightsky/static/media/nightsky.52defeb8.jpg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.8bdaf720.js",
     "static/js/2.00aee3a3.chunk.js",
-    "static/css/main.e3ed5db6.chunk.css",
-    "static/js/main.6fdc6910.chunk.js"
+    "static/css/main.1d3fa3fd.chunk.css",
+    "static/js/main.971a80bb.chunk.js"
   ]
 }
