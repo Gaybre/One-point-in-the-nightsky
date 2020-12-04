@@ -1,13 +1,23 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { useHistory } from 'react-router-dom'
+import ResultContext from '../../context/ResultContext'
 
 import Question from '../Question'
 
 const IsDiffuse = () => {
   const history = useHistory()
+  const contextValue = useContext(ResultContext)
 
-  const handleYes = () => history.push('/has-tail')
-  const handleNo = () => history.push('/flicker')
+
+  const handleYes = () => {
+    contextValue.response.push('difuso, débil')
+    history.push('/has-tail')
+  }
+
+  const handleNo = () => {
+    contextValue.response.push('claro a simple vista')
+    history.push('/flicker')
+  }
 
   return (
     <Question

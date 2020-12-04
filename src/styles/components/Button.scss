@@ -4,7 +4,7 @@
   border-radius: $border-radius;
   font-weight: bold;
   font-size: 1.2rem;
-  color: $succes-color;
+  color: $secondary-color;
   outline: none;
   transition: 300ms;
   cursor: pointer;
@@ -15,17 +15,29 @@
 
 .btn--normal {
   @extend %btn;
-  background: $gradient;
+  background: $secondary-color;
 }
 
 .btn--outline {
   @extend %btn;
-  border: 4px solid $succes-color;
+  border: 4px solid $secondary-color;
   background: transparent;
   &:hover {
-    background: $succes-color;
-    // background: rgba($succes-color, .5);
-    color: $grayscale-4;
-    @include shadow($succes-color);
+    background: rgba($secondary-color, .5);
+    color: $grayscale-1;
+    transform: rotateZ(360);
+    border: 4px solid $secondary-color;
+    @include shadow($secondary-color);
+  }
+}
+
+.btn--text {
+  @extend %btn;
+  background-color: transparent;
+  border: none;
+  color: $grayscale-1;
+  &:hover {
+    color: $secondary-color;
+    text-decoration: underline;
   }
 }

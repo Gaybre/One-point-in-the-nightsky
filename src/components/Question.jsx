@@ -5,7 +5,9 @@ import Card from './Card'
 const Question = ({question, yes, no}) => (
   <section className="question">
     <h1>
-      {question || '¿Qué es una pregunta?'}
+      <span>
+        {question || '¿Qué es una pregunta?'}
+      </span>
     </h1>
     <div className="question__cards">
       <Card

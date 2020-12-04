@@ -6,11 +6,15 @@ import Question from '../Question'
 
 const IsSoFast = () => {
   const history = useHistory()
-  const Result = useContext(ResultContext)
+  const contextValue = useContext(ResultContext)
 
-  const handleYes = () => history.push('/brightness-increase')
+  const handleYes = () => {
+    contextValue.response.pop()
+    contextValue.response.push('muy rápído')
+    history.push('/brightness-increase')
+  }
   const handleNo = () => {
-    Result.text = 'Es un satélite o el ingreso de basura espacial'
+    contextValue.text = 'Es un satélite o el ingreso de basura espacial'
     history.push('/result')
   }
 

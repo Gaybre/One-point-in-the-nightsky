@@ -5,15 +5,18 @@ import ResultContext from '../../context/ResultContext'
 import Question from '../Question'
 
 const Blinks = () => {
-  const Result = useContext(ResultContext)
   const history = useHistory()
+  const contextValue = useContext(ResultContext)
 
   const handleYes = () => {
-    Result.text = 'Es un avion'
+    contextValue.response.push('y parpadea')
+    contextValue.text = 'Es un avion'
     history.push('/result')
   }
+
   const handleNo = () => {
-    Result.text = 'Es un satélite o la Estación Espacial Internacional'
+    contextValue.response.push('y no parpadea')
+    contextValue.text = 'Es un satélite o la Estación Espacial Internacional'
     history.push('/result')
   }
 

@@ -1,19 +1,22 @@
 import React, { useContext } from 'react'
 import { useHistory } from 'react-router-dom'
-import ResultContex from '../../context/ResultContext'
+import ResultContext from '../../context/ResultContext'
 
 import Question from '../Question'
 
 const Flicker = () => {
-  const Result = useContext(ResultContex)
   const history = useHistory()
+  const contextValue = useContext(ResultContext)
 
   const handleYes = () => {
-    Result.text = 'Es una estrella'
+    contextValue.response.push('y titila')
+    contextValue.text = 'Es una estrella'
     history.push('/result')
   }
+
   const handleNo = () => {
-    Result.text = 'Es un planeta'
+    contextValue.response.push('y no titila')
+    contextValue.text = 'Es un planeta'
     history.push('/result')
   }
 

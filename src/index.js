@@ -4,9 +4,14 @@ import App from './App'
 
 import ResultContext from './context/ResultContext'
 
+const Value = {
+  text: "llegaste al resultado",
+  response: []
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <ResultContext.Provider value={{text: "llegaste al resultado", anotherText: "I am another text"}}>
+    <ResultContext.Provider value={Value}>
       <App />
     </ResultContext.Provider>
   </React.StrictMode>,

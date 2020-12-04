@@ -31,7 +31,7 @@ const Home = () => {
           </h2>
           <Pace getPace={(char) => (char === " " ? 600 : 40)}>
             <h1>
-              Tranquilo, ¡Averiguémoslo!
+              Tranquilo, <span>¡Averiguémoslo!</span>
             </h1>
           </Pace>
           <Button

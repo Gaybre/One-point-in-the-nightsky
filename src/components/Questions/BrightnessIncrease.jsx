@@ -6,14 +6,17 @@ import Question from '../Question'
 
 const BrightnessIncrease = () => {
   const history = useHistory()
-  const Res = useContext(ResultContext)
+  const contextValue = useContext(ResultContext)
 
   const handleYes = () => {
-    Res.text = 'Es un volido'
+    contextValue.response.push('y aumentó su brillo tras desaparecer')
+    contextValue.text = 'Es un volido'
     history.push('/result')
   }
+
   const handleNo = () => {
-    Res.text = 'Es un meteoro o una estrella fugáz'
+    contextValue.response.push('y mantuvo el mismo brillo')
+    contextValue.text = 'Es un meteoro o una estrella fugáz'
     history.push('/result')
   }
 

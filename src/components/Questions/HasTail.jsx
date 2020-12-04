@@ -5,15 +5,18 @@ import ResultContext from '../../context/ResultContext'
 import Question from '../Question'
 
 const HasTail = () => {
-  const Result = useContext(ResultContext)
   const history = useHistory()
+  const contextValue = useContext(ResultContext)
 
   const handleYes = () => {
-    Result.text = 'Es un cometa'
+    contextValue.response.push('y tiene cola')
+    contextValue.text = 'Es un cometa'
     history.push('/result')
   }
+
   const handleNo = () => {
-    Result.text = 'Es un objeto del cielo profundo: Galaxia || Cúmulo'
+    contextValue.response.push('y no tiene cola')
+    contextValue.text = 'Es un objeto del cielo profundo: Galaxia || Cúmulo'
     history.push('/result')
   }
 

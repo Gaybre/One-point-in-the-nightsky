@@ -6,10 +6,10 @@
   &__entry {
     display: flex;
     flex-direction: column;
-    & button {
+    button {
       width: 60%;
-      margin: 0 auto;
       margin-top: $spacing-large *2;
+      align-self: center;
     }
   }
 }

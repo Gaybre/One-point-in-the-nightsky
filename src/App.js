@@ -12,20 +12,23 @@ import BrightnessIncrease from './components/Questions/BrightnessIncrease'
 import HasTail from './components/Questions/HasTail'
 import Flicker from './components/Questions/Flicker'
 import Lost from './pages/Lost'
+import Layout from './pages/Layout'
 
 const App = () => (
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/has-movement" component={HasMovement} />
-      <Route exact path="/is-fast" component={IsFasts} />
-      <Route exact path="/is-diffuse" component={IsDiffuse} />
-      <Route exact path="/is-so-fast" component={IsSoFast} />
-      <Route exact path="/blinks" component={Blinks} />
-      <Route exact path="/brightness-increase" component={BrightnessIncrease} />
-      <Route exact path="/has-tail" component={HasTail} />
-      <Route exact path="/flicker" component={Flicker} />
-      <Route exact path="/result" component={Result} />
+      <Layout>
+        <Route exact path="/has-movement" component={HasMovement} />
+        <Route exact path="/is-fast" component={IsFasts} />
+        <Route exact path="/is-diffuse" component={IsDiffuse} />
+        <Route exact path="/is-so-fast" component={IsSoFast} />
+        <Route exact path="/blinks" component={Blinks} />
+        <Route exact path="/brightness-increase" component={BrightnessIncrease} />
+        <Route exact path="/has-tail" component={HasTail} />
+        <Route exact path="/flicker" component={Flicker} />
+        <Route exact path="/result" component={Result} />
+      </Layout>
       <Route component={Lost} />
     </Switch>
   </BrowserRouter>
