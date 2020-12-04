@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/One-point-in-the-nightsky/static/css/main.a9014dff.chunk.css",
-    "main.js": "/One-point-in-the-nightsky/static/js/main.a6ae2ceb.chunk.js",
-    "main.js.map": "/One-point-in-the-nightsky/static/js/main.a6ae2ceb.chunk.js.map",
+    "main.css": "/One-point-in-the-nightsky/static/css/main.e3ed5db6.chunk.css",
+    "main.js": "/One-point-in-the-nightsky/static/js/main.6fdc6910.chunk.js",
+    "main.js.map": "/One-point-in-the-nightsky/static/js/main.6fdc6910.chunk.js.map",
     "runtime-main.js": "/One-point-in-the-nightsky/static/js/runtime-main.8bdaf720.js",
     "runtime-main.js.map": "/One-point-in-the-nightsky/static/js/runtime-main.8bdaf720.js.map",
     "static/js/2.00aee3a3.chunk.js": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js",
     "static/js/2.00aee3a3.chunk.js.map": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js.map",
     "index.html": "/One-point-in-the-nightsky/index.html",
-    "static/css/main.a9014dff.chunk.css.map": "/One-point-in-the-nightsky/static/css/main.a9014dff.chunk.css.map",
+    "static/css/main.e3ed5db6.chunk.css.map": "/One-point-in-the-nightsky/static/css/main.e3ed5db6.chunk.css.map",
     "static/js/2.00aee3a3.chunk.js.LICENSE.txt": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js.LICENSE.txt",
-    "static/media/astronauta-meditando.d87f212c.png": "/One-point-in-the-nightsky/static/media/astronauta-meditando.d87f212c.png",
+    "static/media/guitarra.edaa3511.png": "/One-point-in-the-nightsky/static/media/guitarra.edaa3511.png",
     "static/media/nightsky.52defeb8.jpg": "/One-point-in-the-nightsky/static/media/nightsky.52defeb8.jpg",
     "static/media/skywatcher.6d72cece.png": "/One-point-in-the-nightsky/static/media/skywatcher.6d72cece.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8bdaf720.js",
     "static/js/2.00aee3a3.chunk.js",
-    "static/css/main.a9014dff.chunk.css",
-    "static/js/main.a6ae2ceb.chunk.js"
+    "static/css/main.e3ed5db6.chunk.css",
+    "static/js/main.6fdc6910.chunk.js"
   ]
 }
