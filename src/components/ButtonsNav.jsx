@@ -6,14 +6,20 @@ import Button from './Button'
 
 const ButtonsNav = () => {
   const history = useHistory()
-  const Result = useContext(ResultContex)
+  const contextValue = useContext(ResultContex)
 
   const handleRestart = () => {
-    Result.response = []
+    contextValue.response = []
     history.push('./')
   }
+
   const handleBack = () => {
-    Result.response.pop()
+    if ((contextValue.response.includes('muy rápido')) && contextValue.response.length <3) {
+      contextValue.response.pop()
+      contextValue.response.push('rápido')
+    } else {
+      contextValue.response.pop()
+    }
     history.goBack()
   }
 

@@ -32,6 +32,17 @@ $spacing-large: 50px;
 // Border
 $border-radius: 10px;
 
+// Z-index
+$z-index-watchers: 3;
+$z-index-start: 5;
+$z-index-btn-start: 13;
+
+// mediaqueries
+$desktop-small: 1024px;
+$tablet: 768px;
+$tablet-small: 574px;
+$phone: 480px;
+
 // Box-Model
 * {
   margin: 0;
@@ -43,9 +54,11 @@ $border-radius: 10px;
   height: 100vh;
   padding: 0 $spacing-medium*2;
   background-image: url('https://res.cloudinary.com/starlink/image/upload/v1606593367/one%20point%20in%20the%20sky/background-space_o3xxli.jpg');
-  background-position: right;
   background-attachment: fixed;
   overflow: auto;
+  animation-duration: 180s;
+  animation-name: bg-change;
+  animation-iteration-count: infinite;
 }
 
 // General styles
@@ -77,6 +90,43 @@ h3 {
   font-size: 2rem;
 }
 
-img {
-  width: 250px;
+h4 {
+  font-size: 1.5rem;
 }
+
+img {
+  width: 15rem;
+}
+
+@media screen and(max-width: $tablet) {
+  html,
+  body {
+    font-size: 13px;
+  }
+}
+
+@media screen and(max-width: $phone) {
+  #root {
+    padding: 0 $spacing-medium;
+  }
+  html,
+  body {
+    font-size: 11px;
+  }
+  h1 {
+    font-size: 3.7rem;
+  }
+}
+
+
+// @media screen and(max-width: $tablet) {
+
+// }
+
+// @media screen and(max-width: $tablet-small) {
+
+// }
+
+// @media screen and(max-width: $phone) {
+
+// }

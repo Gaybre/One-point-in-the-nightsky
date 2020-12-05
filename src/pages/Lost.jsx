@@ -1,7 +1,7 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
 
-import AstronautLost from '../assets/astronauta-meditando.png'
+import AstronautLost from '../assets/guitarra.png'
 import Button from '../components/Button'
 
 const Lost = () => {

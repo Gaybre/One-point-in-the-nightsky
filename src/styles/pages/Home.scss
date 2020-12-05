@@ -1,15 +1,67 @@
 .home {
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  padding-top: $spacing-large *2;
   &__entry {
     display: flex;
     flex-direction: column;
+    z-index: $z-index-start;
     button {
       width: 60%;
       margin-top: $spacing-large *2;
       align-self: center;
     }
+  }
+  &__image img {
+    z-index: $z-index-btn-start;
+  }
+}
+
+.sky-watchers {
+  position: fixed;
+  bottom: -$spacing-medium*2;
+  left: 0;
+  width: 100vw;
+  filter: drop-shadow(1px -3px 4px rgba($grayscale-1, .3));
+  // z-index: $z-index-watchers;
+}
+
+@media screen and(max-width: $desktop-small) {
+  .home {
+    padding-top: $spacing-large;
+  }
+}
+
+@media screen and(max-width: $tablet) {
+  .home {
+    display: block;
+    padding-top: $spacing-medium;
+    figure {
+      text-align: center;
+      margin-top: $spacing-large;
+    }
+    &__entry button {
+        width: 80%;
+        margin-top: $spacing-large;
+    }
+  }
+}
+
+@media screen and(max-width: $tablet-small) {
+  .sky-watchers {
+    bottom: -$spacing-medium*2;
+    left: -20px;
+    width: 110vw;
+  }
+}
+
+@media screen and(max-width: $phone) {
+  .home {
+    &__entry button {
+      width: 100%;
+    }
+  }
+  .sky-watchers {
+    bottom: -$spacing-medium;
   }
 }

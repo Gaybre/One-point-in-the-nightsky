@@ -2,15 +2,14 @@
   position: relative;
   height: 400px;
   padding: $spacing-medium;
-  margin-top: $spacing-large;
   border-radius: $border-radius;
   text-align: center;
   background-color: rgba($primary-color, .5);
   @include shadow($grayscale-1);
-  h2 {
+  h3 {
     position: absolute;
     bottom: $spacing-medium;
+    left: 0;
     width: 100%;
-    margin: 0 auto;
   }
 }

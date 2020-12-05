@@ -2,7 +2,8 @@
   text-align: center;
   &__cards {
     display: flex;
-    padding: $spacing-large;
     justify-content: center;
+    gap: $spacing-medium;
+    padding: $spacing-medium 0;
   }
 }

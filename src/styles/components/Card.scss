@@ -1,10 +1,14 @@
 %card {
-  width: fit-content;
+  max-width: 260px;
+  min-width: 130px;
   margin: 0 auto;
   padding: $spacing-small;
   border-radius: $border-radius;
   text-align: center;
   transition: 300ms;
+  img {
+    width: 100%;
+  }
   & h2 {
     margin-top: $spacing-medium;
   }

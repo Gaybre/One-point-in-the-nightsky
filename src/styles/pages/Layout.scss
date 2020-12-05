@@ -2,4 +2,15 @@
   &__buttons {
     display: none;
   }
+  h4 {
+    margin-bottom: $spacing-medium*2;
+  }
+}
+
+@media screen and(max-width: $tablet-small) {
+  .main {
+    &__buttons {
+      display: flex;
+    }
+  }
 }

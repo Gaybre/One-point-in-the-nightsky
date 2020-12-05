@@ -10,10 +10,11 @@ const IsSoFast = () => {
 
   const handleYes = () => {
     contextValue.response.pop()
-    contextValue.response.push('muy rápído')
+    contextValue.response.push('muy rápido')
     history.push('/brightness-increase')
   }
   const handleNo = () => {
+    contextValue.response.push('.')
     contextValue.text = 'Es un satélite o el ingreso de basura espacial'
     history.push('/result')
   }

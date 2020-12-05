@@ -8,7 +8,9 @@ const Header = () => {
       <h3>
         ¿Qué es lo que ví en el cielo?
       </h3>
-      <ButtonsNav />
+      <nav className="header__nav">
+        <ButtonsNav />
+      </nav>
     </header>
   )
 }

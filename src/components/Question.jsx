@@ -1,4 +1,5 @@
 import React from 'react'
+import { WindupChildren } from 'windups'
 
 import Card from './Card'
 
@@ -6,7 +7,9 @@ const Question = ({question, yes, no}) => (
   <section className="question">
     <h1>
       <span>
-        {question || '¿Qué es una pregunta?'}
+        <WindupChildren>
+          {question || '¿Qué es una pregunta?'}
+        </WindupChildren>
       </span>
     </h1>
     <div className="question__cards">

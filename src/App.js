@@ -15,7 +15,7 @@ import Lost from './pages/Lost'
 import Layout from './pages/Layout'
 
 const App = () => (
-  <BrowserRouter>
+  <BrowserRouter basename="/One-point-in-the-nightsky">
     <Switch>
       <Route exact path="/" component={Home} />
       <Layout>

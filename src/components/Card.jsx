@@ -1,5 +1,5 @@
 import React from 'react'
-import Nightsky from '../assets/nightsky.jpg'
+import Nightsky from '../assets/nightsky-1.jpg'
 
 const Card = ({type, onClick, image}) => {
   const cardType = (type === 'Sí') ? 'succes' : 'warning'

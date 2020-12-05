@@ -11,7 +11,7 @@
 }
 
 .astronautFadeOut {
-  animation-duration: 5s;
+  animation-duration: 3s;
   animation-name: astronautFadeOut;
   animation-iteration-count: 1;
 }
@@ -46,8 +46,8 @@
   }
   to {
     transform: rotateZ(-380deg) scale(.1);
-    margin-bottom: -$spacing-large *2;
-    margin-right: $spacing-large *10;
+    margin-top: -$spacing-large *5;
+    margin-bottom: $spacing-large *10;
     opacity: .1;
   }
 }
@@ -62,5 +62,16 @@
     margin-bottom: -$spacing-large *2;
     margin-right: $spacing-large *10;
     opacity: .1;
+  }
+}
+
+@keyframes bg-change {
+  from {
+    background-position: bottom;
+    background-position: left;
+  }
+  to {
+    background-position: right;
+    background-position: bottom;
   }
 }
