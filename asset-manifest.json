@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/One-point-in-the-nightsky/static/css/main.c959eed1.chunk.css",
-    "main.js": "/One-point-in-the-nightsky/static/js/main.cf856d7d.chunk.js",
-    "main.js.map": "/One-point-in-the-nightsky/static/js/main.cf856d7d.chunk.js.map",
+    "main.css": "/One-point-in-the-nightsky/static/css/main.2bdf82e1.chunk.css",
+    "main.js": "/One-point-in-the-nightsky/static/js/main.aa694df0.chunk.js",
+    "main.js.map": "/One-point-in-the-nightsky/static/js/main.aa694df0.chunk.js.map",
     "runtime-main.js": "/One-point-in-the-nightsky/static/js/runtime-main.8bdaf720.js",
     "runtime-main.js.map": "/One-point-in-the-nightsky/static/js/runtime-main.8bdaf720.js.map",
     "static/js/2.00aee3a3.chunk.js": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js",
     "static/js/2.00aee3a3.chunk.js.map": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js.map",
     "index.html": "/One-point-in-the-nightsky/index.html",
-    "static/css/main.c959eed1.chunk.css.map": "/One-point-in-the-nightsky/static/css/main.c959eed1.chunk.css.map",
+    "static/css/main.2bdf82e1.chunk.css.map": "/One-point-in-the-nightsky/static/css/main.2bdf82e1.chunk.css.map",
     "static/js/2.00aee3a3.chunk.js.LICENSE.txt": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js.LICENSE.txt",
     "static/media/guitarra.edaa3511.png": "/One-point-in-the-nightsky/static/media/guitarra.edaa3511.png",
-    "static/media/nightsky.52defeb8.jpg": "/One-point-in-the-nightsky/static/media/nightsky.52defeb8.jpg",
+    "static/media/nightsky-1.115f0a4d.jpg": "/One-point-in-the-nightsky/static/media/nightsky-1.115f0a4d.jpg",
     "static/media/skywatcher.6d72cece.png": "/One-point-in-the-nightsky/static/media/skywatcher.6d72cece.png",
     "static/media/sobre-cohete.8087f3bd.png": "/One-point-in-the-nightsky/static/media/sobre-cohete.8087f3bd.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8bdaf720.js",
     "static/js/2.00aee3a3.chunk.js",
-    "static/css/main.c959eed1.chunk.css",
-    "static/js/main.cf856d7d.chunk.js"
+    "static/css/main.2bdf82e1.chunk.css",
+    "static/js/main.aa694df0.chunk.js"
   ]
 }
