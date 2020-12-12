@@ -21,7 +21,7 @@ const IsSoFast = () => {
 
   return (
     <Question
-      question="¿Tanto que casi no te da tiempo de verlo?"
+      data={contextValue.questions.isSoFast}
       yes={() => handleYes()}
       no={() => handleNo()}
     />

@@ -20,7 +20,7 @@ const IsFasts = () => {
 
   return (
     <Question
-      question="¿Rápido?"
+      data={contextValue.questions.isFast}
       yes={() => handleYes()}
       no={() => handleNo()}
     />

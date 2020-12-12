@@ -22,7 +22,7 @@ const HasTail = () => {
 
   return (
     <Question
-      question="¿Tiene cola?"
+      data={contextValue.questions.hasTail}
       yes={() => handleYes()}
       no={() => handleNo()}
     />

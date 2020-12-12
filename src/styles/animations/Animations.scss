@@ -75,3 +75,96 @@
     background-position: bottom;
   }
 }
+
+// ----------------------------------------- card class animations
+.hasMovement {
+  animation-duration: 8s;
+  animation-name: hasMovement;
+  animation-iteration-count: infinite;
+}
+
+.hasFastMovement {
+  animation-duration: 4s;
+  animation-name: hasMovement;
+  animation-iteration-count: infinite;
+}
+
+.hasVeryFastMovement {
+  animation-duration: 1.5s;
+  animation-name: hasMovement;
+  animation-iteration-count: infinite;
+}
+
+.difuse {
+  opacity: .4;
+}
+
+.blinks {
+  animation-duration: 1.3s;
+  animation-name: blinks;
+  animation-iteration-count: infinite;
+}
+
+.hasTail {
+  filter: drop-shadow(-1px 7px 0 #fff);
+  clip-path: ellipse(17% 44% at 54% 52%);
+  height: 35px;
+  transform: rotate(30deg);
+}
+
+.hasFastMovementBlink {
+  animation: hasMovement 8s, blinks .5s;
+  animation-iteration-count: infinite;
+}
+
+.brightnessIncrease {
+  animation: hasMovement 1.5s, brightnessIncrease 1.5s;
+  animation-iteration-count: infinite;
+}
+
+// ----------------------------------------- Card animationis
+@keyframes hasMovement {
+  0% {
+    top: $spacing-medium +5;
+    margin-left: 12rem;
+  }
+  100% {
+    margin-left: $spacing-small;
+    top: $spacing-medium *3;
+  }
+}
+
+@keyframes blinks {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes brightnessIncrease {
+  0% {
+  }
+  100% {
+    filter: contrast(500%);
+    transform: scale(1.8);
+  }
+}
+
+
+@media screen and(max-width: $phone) {
+  @keyframes hasMovement {
+    0% {
+      top: $spacing-medium +5;
+      margin-left: 10rem;
+    }
+    100% {
+      margin-left: $spacing-small;
+      top: $spacing-medium *3;
+    }
+  }
+}

@@ -8,7 +8,6 @@ const HasMovement = () => {
   const history = useHistory()
   const contextValue = useContext(ResultContext)
 
-
   const handleYes = () => {
     contextValue.response.push('Se mueve')
     history.push('/is-fast')
@@ -21,7 +20,7 @@ const HasMovement = () => {
 
   return (
     <Question
-      question="¿Se mueve?"
+      data={contextValue.questions.hasMovement}
       yes={() => handleYes()}
       no={() => handleNo()}
     />

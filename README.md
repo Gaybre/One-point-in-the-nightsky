@@ -1,8 +1,8 @@
 # One point in the nightsky
 
 <div align="center">
-  <img src="https://res.cloudinary.com/starlink/image/upload/v1607142575/one%20point%20in%20the%20sky/portada-cel_ylyat4.png" height="100" alt="mobileApp">
-  <img src="https://res.cloudinary.com/starlink/image/upload/v1607141349/one%20point%20in%20the%20sky/portada_tg6gdo.png" height="100" alt="webApp">
+  <img src="https://res.cloudinary.com/starlink/image/upload/v1607142575/one%20point%20in%20the%20sky/portada-cel_ylyat4.png" height="150" alt="mobileApp">
+  <img src="https://res.cloudinary.com/starlink/image/upload/v1607141349/one%20point%20in%20the%20sky/portada_tg6gdo.png" height="150" alt="webApp">
 </div>
 
 #### have you seen one point in the night sky and don't have sure what is it?

@@ -22,7 +22,7 @@ const Flicker = () => {
 
   return (
     <Question
-      question="¿Titila?"
+      data={contextValue.questions.flicker}
       yes={() => handleYes()}
       no={() => handleNo()}
     />

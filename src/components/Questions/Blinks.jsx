@@ -22,7 +22,7 @@ const Blinks = () => {
 
   return (
     <Question
-      question="¿Parpadea?"
+      data={contextValue.questions.blinks}
       yes={() => handleYes()}
       no={() => handleNo()}
     />

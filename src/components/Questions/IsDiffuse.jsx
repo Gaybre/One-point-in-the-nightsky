@@ -8,6 +8,11 @@ const IsDiffuse = () => {
   const history = useHistory()
   const contextValue = useContext(ResultContext)
 
+  // useEffect(() => {
+  //   const animation = getAnimation(props.location.pathname)
+  //   contextValue.animationYes = animation
+  //   console.log(animation)
+  // })
 
   const handleYes = () => {
     contextValue.response.push('difuso, débil')
@@ -21,7 +26,7 @@ const IsDiffuse = () => {
 
   return (
     <Question
-      question="¿Es difuso y débil?"
+      data={contextValue.questions.isDiffuse}
       yes={() => handleYes()}
       no={() => handleNo()}
     />

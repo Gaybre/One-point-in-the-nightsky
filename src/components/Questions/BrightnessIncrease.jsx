@@ -22,7 +22,7 @@ const BrightnessIncrease = () => {
 
   return (
     <Question
-      question="¿Aumentó de brillo antes de desaparecer?"
+      data={contextValue.questions.brightnessIncrease}
       yes={() => handleYes()}
       no={() => handleNo()}
     />
