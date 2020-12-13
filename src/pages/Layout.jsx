@@ -21,7 +21,7 @@ const Layout = ({children}) => {
       </h4>
       {children}
       <div className="main__buttons">
-        <ButtonsNav />
+        <ButtonsNav icons />
       </div>
     </main>
   )

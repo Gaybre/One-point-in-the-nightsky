@@ -11,12 +11,14 @@ const Flicker = () => {
   const handleYes = () => {
     contextValue.response.push('y titila')
     contextValue.text = 'Es una estrella'
+    contextValue.finalResult = contextValue.answers.star
     history.push('/result')
   }
 
   const handleNo = () => {
     contextValue.response.push('y no titila')
     contextValue.text = 'Es un planeta'
+    contextValue.finalResult = contextValue.answers.planet
     history.push('/result')
   }
 

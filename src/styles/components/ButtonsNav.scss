@@ -2,6 +2,9 @@
   width: fit-content;
   display: flex;
   justify-content: center;
+  img {
+    width: 30px;
+  }
 }
 
 @media screen and(max-width: $tablet) {
@@ -13,12 +16,12 @@
 @media screen and(max-width: $tablet-small) {
   .buttons-nav {
     width: 100%;
-    height: $spacing-large;
+    height: $spacing-medium *3;
     position: fixed;
     bottom: 0;
     left: 0;
     display: flex;
     justify-content: space-evenly;
-    background: $primary-color;
+    background: rgba($primary-color, .7);
   }
 }

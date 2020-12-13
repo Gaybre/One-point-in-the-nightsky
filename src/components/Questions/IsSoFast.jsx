@@ -16,6 +16,7 @@ const IsSoFast = () => {
   const handleNo = () => {
     contextValue.response.push('.')
     contextValue.text = 'Es un satélite o el ingreso de basura espacial'
+    contextValue.finalResult = contextValue.answers.satelites
     history.push('/result')
   }
 

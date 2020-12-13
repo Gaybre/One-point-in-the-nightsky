@@ -1,16 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
-import { dataQuestions } from './utils/dataQuestions'
+import { dataQuestions, dataAnswers } from './utils/dataQuestions'
 
 import ResultContext from './context/ResultContext'
 
 const Value = {
   text: "llegaste al resultado",
-  animationYes: "",
-  animationNo: "",
+  // animationYes: "",
+  // animationNo: "",
   response: [],
-  questions: dataQuestions
+  questions: dataQuestions,
+  answers: dataAnswers,
+  finalResult: ''
 }
 
 ReactDOM.render(

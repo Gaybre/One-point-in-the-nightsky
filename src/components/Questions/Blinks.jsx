@@ -11,12 +11,14 @@ const Blinks = () => {
   const handleYes = () => {
     contextValue.response.push('y parpadea')
     contextValue.text = 'Es un avion'
+    contextValue.finalResult = contextValue.answers.plane
     history.push('/result')
   }
 
   const handleNo = () => {
     contextValue.response.push('y no parpadea')
     contextValue.text = 'Es un satélite o la Estación Espacial Internacional'
+    contextValue.finalResult = contextValue.answers.ISS
     history.push('/result')
   }
 

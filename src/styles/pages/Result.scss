@@ -1,11 +1,17 @@
 .result {
   position: relative;
-  height: 400px;
+  min-height: 400px;
   padding: $spacing-medium;
   border-radius: $border-radius;
   text-align: center;
   background-color: rgba($primary-color, .5);
   @include shadow($grayscale-1);
+  &__image-result {
+    width: 25rem;
+    max-height: 300px;
+    margin-bottom: $spacing-large *2;
+    border-radius: $border-radius;
+  }
   h3 {
     position: absolute;
     bottom: $spacing-medium;

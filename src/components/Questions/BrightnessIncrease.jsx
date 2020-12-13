@@ -11,12 +11,14 @@ const BrightnessIncrease = () => {
   const handleYes = () => {
     contextValue.response.push('y aumentó su brillo tras desaparecer')
     contextValue.text = 'Es un volido'
+    contextValue.finalResult = contextValue.answers.bolido
     history.push('/result')
   }
 
   const handleNo = () => {
     contextValue.response.push('y mantuvo el mismo brillo')
     contextValue.text = 'Es un meteoro o una estrella fugáz'
+    contextValue.finalResult = contextValue.answers.meteoro
     history.push('/result')
   }
 
