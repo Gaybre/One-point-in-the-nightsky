@@ -1,7 +1,7 @@
 .result {
   position: relative;
-  min-height: 400px;
   padding: $spacing-medium;
+  margin-bottom: $spacing-medium;
   border-radius: $border-radius;
   text-align: center;
   background-color: rgba($primary-color, .5);
@@ -9,13 +9,18 @@
   &__image-result {
     width: 25rem;
     max-height: 300px;
-    margin-bottom: $spacing-large *2;
+    margin-bottom: $spacing-large;
     border-radius: $border-radius;
   }
-  h3 {
-    position: absolute;
-    bottom: $spacing-medium;
-    left: 0;
+  &__random-character {
+    width: 7rem;
+  }
+  &__text {
     width: 100%;
+  }
+  &__button {
+    position: absolute;
+    right: 0;
+    bottom: -$spacing-medium *4;
   }
 }

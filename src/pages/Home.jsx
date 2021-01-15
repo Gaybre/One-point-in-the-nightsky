@@ -14,7 +14,7 @@ const Home = () => {
     const $entry = document.querySelector('.home__entry')
     $astronauta.classList.remove('floating')
     $astronauta.classList.add('astronautFadeOut')
-    $entry.classList.add('astronautFadeOut')
+    $entry.classList.add('flash')
 
     setTimeout(() => {
       const $home = document.querySelector('.home')

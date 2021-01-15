@@ -9,6 +9,16 @@ import Back from '../assets/icons/back.png'
 const ButtonsNav = ({icons}) => {
   const history = useHistory()
   const contextValue = useContext(ResultContex)
+  const $body = document.getElementById('body')
+
+  const disableReturn = () => {
+    alert('no-back')
+    // window.location.hash="no-back-button";
+    // window.location.hash="Again-No-back-button" //chrome
+    // window.onhashchange=function(){window.location.hash="no-back-button";}
+  }
+
+  $body.addEventListener('onload', disableReturn)
 
   const handleRestart = () => {
     contextValue.response = []
@@ -30,13 +40,13 @@ const ButtonsNav = ({icons}) => {
       <div className="buttons-nav">
         <Button
           typeStyle="text"
-          title={<img src={Refresh} alt="Reiniciar" />}
-          onClick={() => handleRestart()}
+          title={<img src={Back} alt="Ir atrás" />}
+          onClick={() => handleBack()}
         />
         <Button
           typeStyle="text"
-          title={<img src={Back} alt="Ir atrás" />}
-          onClick={() => handleBack()}
+          title={<img src={Refresh} alt="Reiniciar" />}
+          onClick={() => handleRestart()}
         />
       </div>
     )

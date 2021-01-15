@@ -59,6 +59,15 @@ $phone: 480px;
   animation-duration: 180s;
   animation-name: bg-change;
   animation-iteration-count: infinite;
+  &::-webkit-scrollbar {
+    background-color: rgba($grayscale-6, .5);
+    width: $spacing-small;
+    @include shadow($primary-color);
+  }
+  &::-webkit-scrollbar-thumb {
+      background-color: rgba($primary-color, .5);
+      border-radius: $border-radius *2;
+  }
 }
 
 // General styles

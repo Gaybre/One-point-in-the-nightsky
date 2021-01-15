@@ -16,9 +16,15 @@
   animation-iteration-count: 1;
 }
 
-.entryFadeOut {
-  animation-duration: 5s;
-  animation-name: entryFadeOut;
+// .entryFadeOut {
+//   animation-duration: 5s;
+//   animation-name: entryFadeOut;
+//   animation-iteration-count: 1;
+// }
+
+.flash {
+  animation-duration: 3s;
+  animation-name: flash;
   animation-iteration-count: 1;
 }
 
@@ -33,14 +39,14 @@
 }
 
 // Astronaut animation
-@keyframes floating{
+@keyframes floating {
   0% {margin-top: 0px;}
   50% {margin-top: 30px;}
   100% {margin-top: 0px;}
 }
 
 // Astronaut animation
-@keyframes astronautFadeOut{
+@keyframes astronautFadeOut {
   from {
     transform: rotateZ(0deg) scale(1);
   }
@@ -52,18 +58,28 @@
   }
 }
 
-// Astronaut animation
-@keyframes entryFadeOut {
+@keyframes flash {
   from {
-    transform: rotateZ(0deg) scale(1);
+    transform: scale(1.1);
   }
   to {
-    transform: rotateZ(-380deg) scale(.1);
-    margin-bottom: -$spacing-large *2;
-    margin-right: $spacing-large *10;
+    transform: scale(.01);
     opacity: .1;
   }
 }
+
+// Astronaut animation
+// @keyframes entryFadeOut {
+//   from {
+//     transform: rotateZ(0deg) scale(1);
+//   }
+//   to {
+//     transform: rotateZ(-380deg) scale(.1);
+//     margin-bottom: -$spacing-large *2;
+//     margin-right: $spacing-large *10;
+//     opacity: .1;
+//   }
+// }
 
 @keyframes bg-change {
   from {

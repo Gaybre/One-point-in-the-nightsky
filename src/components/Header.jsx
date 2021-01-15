@@ -3,6 +3,9 @@ import React from 'react'
 import ButtonsNav from './ButtonsNav'
 
 const Header = () => {
+  // if (window.history.back()) {
+  //   alert('usa los botones')
+  // }
   return (
     <header className="header">
       <h3>
