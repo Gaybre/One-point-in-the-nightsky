@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/One-point-in-the-nightsky/static/css/main.0075d523.chunk.css",
-    "main.js": "/One-point-in-the-nightsky/static/js/main.19c9e74c.chunk.js",
-    "main.js.map": "/One-point-in-the-nightsky/static/js/main.19c9e74c.chunk.js.map",
+    "main.css": "/One-point-in-the-nightsky/static/css/main.d35d4384.chunk.css",
+    "main.js": "/One-point-in-the-nightsky/static/js/main.2907a9a8.chunk.js",
+    "main.js.map": "/One-point-in-the-nightsky/static/js/main.2907a9a8.chunk.js.map",
     "runtime-main.js": "/One-point-in-the-nightsky/static/js/runtime-main.8bdaf720.js",
     "runtime-main.js.map": "/One-point-in-the-nightsky/static/js/runtime-main.8bdaf720.js.map",
-    "static/js/2.00aee3a3.chunk.js": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js",
-    "static/js/2.00aee3a3.chunk.js.map": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js.map",
+    "static/js/2.fb99b912.chunk.js": "/One-point-in-the-nightsky/static/js/2.fb99b912.chunk.js",
+    "static/js/2.fb99b912.chunk.js.map": "/One-point-in-the-nightsky/static/js/2.fb99b912.chunk.js.map",
     "index.html": "/One-point-in-the-nightsky/index.html",
-    "static/css/main.0075d523.chunk.css.map": "/One-point-in-the-nightsky/static/css/main.0075d523.chunk.css.map",
-    "static/js/2.00aee3a3.chunk.js.LICENSE.txt": "/One-point-in-the-nightsky/static/js/2.00aee3a3.chunk.js.LICENSE.txt",
+    "static/css/main.d35d4384.chunk.css.map": "/One-point-in-the-nightsky/static/css/main.d35d4384.chunk.css.map",
+    "static/js/2.fb99b912.chunk.js.LICENSE.txt": "/One-point-in-the-nightsky/static/js/2.fb99b912.chunk.js.LICENSE.txt",
     "static/media/astronauta-sobre-luna.98049d78.png": "/One-point-in-the-nightsky/static/media/astronauta-sobre-luna.98049d78.png",
     "static/media/guitarra.edaa3511.png": "/One-point-in-the-nightsky/static/media/guitarra.edaa3511.png",
     "static/media/lectura.ba176dfa.png": "/One-point-in-the-nightsky/static/media/lectura.ba176dfa.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8bdaf720.js",
-    "static/js/2.00aee3a3.chunk.js",
-    "static/css/main.0075d523.chunk.css",
-    "static/js/main.19c9e74c.chunk.js"
+    "static/js/2.fb99b912.chunk.js",
+    "static/css/main.d35d4384.chunk.css",
+    "static/js/main.2907a9a8.chunk.js"
   ]
 }
